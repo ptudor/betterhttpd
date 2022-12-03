@@ -278,7 +278,7 @@ Let's review the relationship between Directory, File, and Location. More detail
 
 `Alias` lets us redefine those slightly as with my UUIDs you will real soon grow tired of seeing.
 
-Quoting from that webpage, "When applying directives to objects that reside in the filesystem always use <Directory> or <Files>. When applying directives to objects that do not reside in the filesystem (such as a webpage generated from a database), use <Location>."
+Quoting from that webpage, "When applying directives to objects that reside in the filesystem always use `<Directory>` or `<Files>`. When applying directives to objects that do not reside in the filesystem (such as a webpage generated from a database), use `<Location>`."
 
 ```
 <Directory "/var/www">
